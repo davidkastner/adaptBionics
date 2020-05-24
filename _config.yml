@@ -110,17 +110,9 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: We're Hackers
-about-description: <p>The Red Canari team is made up of seasoned security professionals
-                   with over 30 years of experience in applied InfoSec consulting.
-                   We've played pivotal roles in securing critical information systems across
-                   the public and private sectors.</p>
-                   <p>But what's more is that we're a part of the global InfoSec community,
-                   building and maintaining open source security tools, training tomorrow's cyber-warriors,
-                   and helping mitigate vulnerabilities in commercial and proprietary systems.</p>
-                   <p>We back up our technical and analytical skills with our ability to distill
-                   and communicate technical security concepts into concrete and actionable
-                   recommendations.</p>
+about-title: Engineers and Designers
+about-description: <p>At Kahyton Biostructures, we are interested in developing innovative braces that can aid rehabilitation centers in providing patients with state of the art designs.
+                     Our current research agenda focuses on using a unique organic structure such as the voronoi motif to strategically place openings over the inflicted area and facilitate therapy and the healing process.</p>
 
 
 #####################################
