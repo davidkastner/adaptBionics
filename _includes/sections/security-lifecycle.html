@@ -1,0 +1,77 @@
+<!-- Parallax Section -->
+<section class="site-section parallax-services-section parallax next-section-indicator" id="parallax-services" data-scrollax-parent="true">
+
+    <!-- Parallax Image -->
+    <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+        <img src="{{ site.baseurl }}/images/services-parallax.png" alt="Cyber-Security Life Cycle Services"/>
+    </div>
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="row text-center">
+
+            <!-- Section Header -->
+            <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+                <h2>{{ site.core-title }}</h2>
+                <hr class="normal">
+            </header>
+
+            <!-- Section Content -->
+            <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+                <p>{{ site.core-description }}</p>
+            </div>
+
+        </div>
+
+        <!-- Section services -->
+        <div class="row section-services">
+
+            <div class="col-md-4 col-sm-6 text-right">
+
+                {% for service in site.core-services-left %}
+
+                <div class="service">
+                    <div class="text-wrap">
+                        <h3>{{ service.name }}</h3>
+                        <p>{{ service.description }}</p>
+                    </div>
+                    <div class="icon-wrap">
+                        <div class="circle parent">
+                            <i class="{{ service.icon }} child-center"></i>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+            <div class="col-md-4 phone">
+                <img src="{{ site.baseurl }}/images/shield.svg" alt="Phone Image"/>
+            </div>
+
+            <div class="col-md-4 col-sm-6 text-left">
+
+                {% for service in site.core-services-right %}
+
+                <div class="service">
+                    <div class="text-wrap">
+                        <h3>{{ service.name }}</h3>
+                        <p>{{ service.description }}</p>
+                    </div>
+                    <div class="icon-wrap">
+                        <div class="circle parent">
+                            <i class="{{ service.icon }} child-center"></i>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+</section>

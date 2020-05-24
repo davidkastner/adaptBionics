@@ -1,0 +1,45 @@
+<!-- Site Header -->
+<header class="site-header blog-header parallax" id="home" data-scrollax-parent="true">
+
+    <!-- Parallax Header Image -->
+    <div class="parallax-wrapper">
+        <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+            <img src="{{ site.baseurl }}/images/header-blog-image.jpg"
+                 alt="Sera - One Page Template by Gleesik Wallpaper"/>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- Site Navigation Bar -->
+        {% include sections/navbar.html %}
+
+        <!-- Site Header Banner -->
+        <div class="row header-banner parent" data-scrollax="properties: { 'translateY': '48%', 'opacity': '1.4' }">
+
+            <div class="heading-content text-center child-center-v">
+
+                <!-- Heading Title -->
+                <div class="row heading-title">
+                    <h2>{{ page.tagline }}</h2>
+                    <hr class="small">
+                    <h1 class="thin">{{ page.title }}</h1>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Arrow Down -->
+        <div class="row arrow-down-section" data-scrollax="properties: { 'opacity': '0.6' }">
+
+            <div class="wrapper-arrow child-center">
+                <a href="#start" class="arrow-down">
+                    <i class="pe-7s-angle-down"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</header>

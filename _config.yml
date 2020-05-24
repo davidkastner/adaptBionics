@@ -1,294 +1,480 @@
-# Welcome to Jekyll!
+# Configuration File
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
+# Information for compile
+exclude: [".git", ".gitignore", "node_modules", "gulpfile.js", "package.json", "README.md"]
+include: [".well-known/microsoft-identity-association.json"]
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Adaptive Brances
+# Website language
+lang: en-US
+# Header Tagline
+header-title: adaptive braces
+# Header Title
+header-tagline: '<div style="height: 2em"><span id="typed-tagline">research-driven hackers.<br/>trusted security advisors</span></div>'
+
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Download Now
+  url: https://themeforest.net/collections/6069390-sera
+
+# Secondary Buttons
+header-secondary-button:
+  title: Discover More
+  url: http://themeforest.net/user/gleesik
+
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: kastner@mit.edu
+email_subject: We're interested in your services!
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Adaptive Braces"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Adaptive Braces"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://themeforest.net/collections/6069390-sera
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+####################################
+######  Global Social Links   ######
+####################################
+twitter: 'https://twitter.com/davidwkastner'
+linkedin: 'https://www.linkedin.com/davidwkastner'
 
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: avatar-02.jpg
+  author-name: John Doe
+  author-tagline: Blog Author
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+  author-social-links:
+    youtube: '#'
+    pinterest: '#'
+    facebook: '#'
+    twitter: '#'
+    google-plus: '#'
+
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
+map-text: Red Canari, Inc.
+map-text-location: <hr/>7 Bayview Rd<br/>Ottawa, ON K1Y 3B5<br/>Canada
+map-lat: 45.4096921
+map-lng: -75.7282636
+map-zoom: 15
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+about-title: We're Hackers
+about-description: <p>The Red Canari team is made up of seasoned security professionals
+                   with over 30 years of experience in applied InfoSec consulting.
+                   We've played pivotal roles in securing critical information systems across
+                   the public and private sectors.</p>
+                   <p>But what's more is that we're a part of the global InfoSec community,
+                   building and maintaining open source security tools, training tomorrow's cyber-warriors,
+                   and helping mitigate vulnerabilities in commercial and proprietary systems.</p>
+                   <p>We back up our technical and analytical skills with our ability to distill
+                   and communicate technical security concepts into concrete and actionable
+                   recommendations.</p>
 
 
-# Site Author
-author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+#####################################
+#############  Services  ############
+#####################################
+services-title: Services
+services-description: <p>Real security works in the face of real-world adversaries targeting your organization. Which is where we come in. We think like hackers – and act like them – to disclose discreet dangers to your organization.<p>
+                      <p>Our research-based and intelligence-driven methodology is what equips us to discover the latest, most sophisticated vulnerabilities and test the security needs of industries like healthcare, finance and defense.<p>
+                      <p>So it's no surprise we're trusted by clients who need to meet the highest standards of security compliance. And why we regularly present at the world's biggest security conferences.<p>
 
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+#
+# Services
+#
+services:
+
+# Feature
+- title: Strategy & Governance
+  description: Cybersecurity requires timely, cross-functional and cross-organizational responses, aligned and consistent with the emergence of increasingly severe cyber risks. Red Canari helps organizations to create the strategy and implement the framework required to effectively manage cyber risk. Our experts work with organizations to align their security capabilities with their strategic imperatives.
+  icon: pe-7s-culture
+
+# Feature
+- title: Security Architecture
+  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and implementing newer technologies.
+  icon: pe-7s-network
+
+# Feature
+- title: Audit & Assessment
+  description: Think you're prepared for an attack? We'll find out. For organizations with a security policy and infrastructure already in place, our 365 Red Team thinks and acts like attackers, continually putting your team and incident response protocols to the test so they'll be ready when a real threat comes. We research the most sophisticated attack techniques being used today to keep your organization safe.
+  icon: pe-7s-hammer
+
+# Feature
+- title: Operational Technology Assessments
+  description: Advances in modern control systems like the Smart Grid have brought great benefits but at a cost from a security perspective. With the confluence of IT and OT systems and increased inter-system communication, vendors, asset owners and operators, and the general population are all at a greater risk of compromise. To minimize this risk, Red Canari experts conduct security assessments including highly technical offensive testing to minimize vulnerabilities before attackers can exploit critical infrastructures critical to the functioning of modern society.
+  icon: pe-7s-power
+
+# Feature
+- title: Training
+  description: Training of executive managers and key staff in cybersecurity strategy principles and risk management standards is fundamental. Operational skills required for program managers and technical staff are an enduring requirement and should be optimized to meet the strategic requirements of the enterprise plan and changes in the risk environment. Red Canari delivers cybersecurity skills – training aligned to every position in an organization, and generalized cybersecurity best practice guidance for all staff in operational (not primarily IT) areas and management disciplines.
+  icon: pe-7s-notebook
+
+# Feature
+- title: Digital Forensics & Incident Response
+  description: In today's highly interconnected global economy, risk is ubiquitous. Some of the risk that organizations face can be anticipated, managed and mitigated; but several catastrophic, hard-to-predict events are occurring ever more frequently. Red Canari DFIR program enhance the resilience of an organization to high-impact cyber crises. We support you with the decision-making protocols and appropriate responses required in the wake of a cyber emergency, to help limit business interruption and the associated costs.
+  icon: pe-7s-search
 
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Portfolio
+portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+
+#
+# Portfolio Grid
+#
+portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
+portfolio:
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Graphic Design]
+  image: img-01.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Graphic Design, Logo, Websites]
+  image: img-02.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Graphic Design, Logo, Photography]
+  image: img-03.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Video, Photography]
+  image: img-04.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Development, Logo]
+  image: img-05.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Development, Video]
+  image: img-06.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Graphic Design]
+  image: img-07.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites , Video]
+  image: img-08.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Photography, Logo]
+  image: img-09.jpg
+  url: '#'
 
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+#####################################
+##########  Core Services  ##########
+#####################################
+core-title: We look where others don't
+core-description: We will help you identify your weaknesses, pre-emptively remediate them and reduce the risk of being compromised by real-world threats.
+
+#
+# Core Features Left
+#
+core-services-left:
+
+# Feature
+- name: Virtual CSO
+  description: Get guidance on GRC & Policy Implementation.
+  icon: pe-7s-culture
+
+# Feature
+- name: Digital Forensics
+  description: Incident response and investigation.
+  icon: pe-7s-search
+
+# Feature
+- name: Cyber Training Program
+  description: Train your team to operate securely.
+  icon: pe-7s-notebook
+
+# Feature
+- name: Operational Technology
+  description: Assess your Industrial systems.
+  icon: pe-7s-power
+
+#
+# Core Features Right
+#
+core-services-right:
+
+# Feature
+- name: 365 RED TEAM
+  description: Simulate sophisticated real-world attacks.
+  icon: pe-7s-look
+
+# Feature
+- name: Enterprise Penetration Test
+  description: Assess security from every angle.
+  icon: pe-7s-shield
+
+# Feature
+- name: Application Assessment
+  description: Identify vulnerabilities in your applications.
+  icon: pe-7s-monitor
+
+# Feature
+- name: Secure Code Assessment
+  description: Embed security directly into your software development cycle.
+  icon: pe-7s-tools
 
 
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+#####################################
+########### Testimonials ############
+#####################################
+testimonials-title: Testimonials
+testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+
+#
+# Testimonials
+#
+testimonials:
+
+# Client
+- name: Johnatan Doe
+  url: http://themeforest.net
+  url-text: ThemeForest.net
+  avatar: avatar-01.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: themeforest.png
+
+# Client
+- name: Adam Smith
+  url: http://codecanyon.net
+  url-text: CodeCanyon.net
+  avatar: avatar-02.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: codecanyon.png
+
+# Client
+- name: Irene Warner
+  url: http://videohive.net
+  url-text: VideoHive.net
+  avatar: avatar-03.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: videohive.png
+
+# Client
+- name: Richard Ryan
+  url: http://audiojungle.net
+  url-text: AudioJungle.net
+  avatar: avatar-04.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: audiojungle.png
 
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Our Blog
+blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#####################################
+############### Team ################
+#####################################
+team-title: Meet Our Leadership Team
+team-description: The Red Canari team is made up of seasoned security professionals. We’ve played pivotal roles in securing critical information systems across the public and private sectors.
+
+#
+# Team Members
+#
+team:
+
+# Team Member
+- name: Tony Kanjirappally
+  tagline: Managing Partner, CEO
+  avatar: tony.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/tonykanjirappally
+
+# Team Member
+- name: Nadeem Douba
+  tagline: Managing Partner, CTO
+  avatar: nadeem.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/nadeem-douba
+
+# Team Member
+- name: David Mussington
+  tagline: Director, Cyber Risk Management Programmes
+  avatar: david.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/davidmussington/
+
+# Team Member
+- name: Dan Lesage
+  tagline: Director, Engineering
+  avatar: dan.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/danlesage/
+
+# Team Member
+- name: Philip Elsas
+  tagline: Director, Assurance and Audit
+  avatar: philip.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/philipelsas
+
+## Team Member
+#- name: Dan Lesage
+#  tagline: Director, Security Engineering
+#  avatar: avatar-01.jpg
+#
+#  # Social Links
+#  linkedin: https://www.linkedin.com/in/danlesage/
+#
+## Team Member
+- name: Ahmed Shah
+  tagline: Director, Security R&amp;D
+  avatar: ahmed.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
+
+# Team Member
+- name: Delon Young
+  tagline: Director, Sales (Americas)
+  avatar: delon.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/delon-young/
+
+# Team Member
+- name: Rutvik Gajjar
+  tagline: Security Analyst
+  avatar: rutvik.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/rutvik-gajjar-007/
 
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-title: Pricing Tables
+pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+#
+# Plan Personal
+#
+plan-personal-price: $99
+plan-personal-offer-1-title: 01 PSD Pack
+plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-offer-2-title: 100 Support Tickets
+plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-url: '#'
 
+#
+# Plan Business
+#
+plan-business-price: $499
+plan-business-offer-1-title: 05 PSD Pack
+plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-offer-2-title: 1000 Support Tickets
+plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-url: '#'
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+#
+# Plan Ultimate
+#
+plan-ultimate-price: $999
+plan-ultimate-offer-1-title: 10 PSD Pack
+plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-offer-2-title: Support Unlimited
+plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-url: '#'
 
 
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact Us
+contact-description: Secure your enterprise today!
+contact-success: Thank you for contacting us! A member of our team will reach out to you shortly.
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: Research-driven Hackers. Trusted Advisors
+footer-copyright-text: Red Canari
+footer-copyright-url: https://www.redcanari.com/
+footer-copyright-year: 2018
