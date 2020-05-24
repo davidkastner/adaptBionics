@@ -28,12 +28,12 @@ header-tagline: '<div style="height: 2em"><span id="typed-tagline">research-driv
 # Focus Buttons
 header-focus-button:
   title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  url: https://kastner.io
 
 # Secondary Buttons
 header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
+  title: Learn More
+  url: https://kastner.io
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -56,7 +56,7 @@ email_subject: We're interested in your services!
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://kastner.io
 
 ####################################
 ######  Global Social Links   ######
@@ -86,7 +86,7 @@ about-widget:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
-map-text: Red Canari, Inc.
+map-text: Adaptive Braces, Inc.
 map-text-location: <hr/>7 Bayview Rd<br/>Ottawa, ON K1Y 3B5<br/>Canada
 map-lat: 45.4096921
 map-lng: -75.7282636
@@ -171,7 +171,7 @@ services:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+portfolio-description: A gallery style exhibition of the brace designs produced by Adaptive Braces.
 
 #
 # Portfolio Grid
