@@ -119,9 +119,8 @@ about-description: <p>At Kahyton Biostructures, we are interested in developing 
 #############  Services  ############
 #####################################
 services-title: Services
-services-description: <p>Real security works in the face of real-world adversaries targeting your organization. Which is where we come in. We think like hackers – and act like them – to disclose discreet dangers to your organization.<p>
-                      <p>Our research-based and intelligence-driven methodology is what equips us to discover the latest, most sophisticated vulnerabilities and test the security needs of industries like healthcare, finance and defense.<p>
-                      <p>So it's no surprise we're trusted by clients who need to meet the highest standards of security compliance. And why we regularly present at the world's biggest security conferences.<p>
+services-description: <p>Kahyton Biostructures recently received recognition for its Adaptive Braces at the 2018 ASME 3D Printing Competition.
+                   Special thanks to University of Brigham Young, ASME, and Dow Chemical for sponsoring the annual event.<p>
 
 #
 # Services
@@ -129,19 +128,19 @@ services-description: <p>Real security works in the face of real-world adversari
 services:
 
 # Feature
-- title: Strategy & Governance
-  description: Cybersecurity requires timely, cross-functional and cross-organizational responses, aligned and consistent with the emergence of increasingly severe cyber risks. Red Canari helps organizations to create the strategy and implement the framework required to effectively manage cyber risk. Our experts work with organizations to align their security capabilities with their strategic imperatives.
-  icon: pe-7s-culture
+#- title: Strategy & Governance
+#  description: Cybersecurity requires timely, cross-functional and cross-organizational responses, aligned and consistent with the emergence of increasingly severe cyber risks. Red Canari helps organizations to create the strategy and implement the framework required to effectively manage cyber risk. Our experts work with organizations to align their security capabilities with their strategic imperatives.
+#  icon: pe-7s-culture
 
 # Feature
-- title: Security Architecture
-  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and implementing newer technologies.
-  icon: pe-7s-network
+#- title: Security Architecture
+#  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and implementing newer technologies.
+#  icon: pe-7s-network
 
 # Feature
-- title: Audit & Assessment
-  description: Think you're prepared for an attack? We'll find out. For organizations with a security policy and infrastructure already in place, our 365 Red Team thinks and acts like attackers, continually putting your team and incident response protocols to the test so they'll be ready when a real threat comes. We research the most sophisticated attack techniques being used today to keep your organization safe.
-  icon: pe-7s-hammer
+#- title: Audit & Assessment
+#  description: Think you're prepared for an attack? We'll find out. For organizations with a security policy and infrastructure already in place, our 365 Red Team thinks and acts like attackers, continually putting your team and incident response protocols to the test so they'll be ready when a real threat comes. We research the most sophisticated attack techniques being used today to keep your organization safe.
+#  icon: pe-7s-hammer
 
 # Feature
 - title: Operational Technology Assessments
