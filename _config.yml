@@ -345,76 +345,14 @@ team-description: The Red Canari team is made up of seasoned security profession
 team:
 
 # Team Member
-- name: Tony Kanjirappally
-  tagline: Managing Partner, CEO
-  avatar: tony.png
-
+- name: David W. Kastner
+  tagline: Owner and Founder
+  avatar: profile.png
   # Social Links
-  linkedin: https://www.linkedin.com/in/tonykanjirappally
-
-# Team Member
-- name: Nadeem Douba
-  tagline: Managing Partner, CTO
-  avatar: nadeem.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/nadeem-douba
-
-# Team Member
-- name: David Mussington
-  tagline: Director, Cyber Risk Management Programmes
-  avatar: david.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/davidmussington/
-
-# Team Member
-- name: Dan Lesage
-  tagline: Director, Engineering
-  avatar: dan.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/danlesage/
-
-# Team Member
-- name: Philip Elsas
-  tagline: Director, Assurance and Audit
-  avatar: philip.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/philipelsas
-
-## Team Member
-#- name: Dan Lesage
-#  tagline: Director, Security Engineering
-#  avatar: avatar-01.jpg
-#
-#  # Social Links
-#  linkedin: https://www.linkedin.com/in/danlesage/
-#
-## Team Member
-- name: Ahmed Shah
-  tagline: Director, Security R&amp;D
-  avatar: ahmed.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
-
-# Team Member
-- name: Delon Young
-  tagline: Director, Sales (Americas)
-  avatar: delon.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/delon-young/
-
-# Team Member
-- name: Rutvik Gajjar
-  tagline: Security Analyst
-  avatar: rutvik.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/rutvik-gajjar-007/
+  linkedin: https://www.linkedin.com/davidwkastner
+  github: https://github.com/davidkastner
+  twitter: https://www.twitter/davidwkastner
+  instagram: https://www.instagram.com/illustratedatom/
 
 
 #####################################
