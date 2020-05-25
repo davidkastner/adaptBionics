@@ -347,10 +347,10 @@ team:
 # Team Member
 - name: David Kastner
   tagline: Owner and Founder
-  avatar: profile.png
+  avatar: /images/avatars/profile.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/davidwkastner
+  linkedin: https://www.linkedin.com/in/davidwkastner/
   github: https://github.com/davidkastner
   twitter: https://www.twitter/davidwkastner
   instagram: https://www.instagram.com/illustratedatom/
