@@ -347,7 +347,7 @@ team:
 # Team Member
 - name: David Kastner
   tagline: Owner and Founder
-  avatar: /images/avatars/profile.png
+  avatar: profile.png
 
   # Social Links
   linkedin: https://www.linkedin.com/in/davidwkastner/
