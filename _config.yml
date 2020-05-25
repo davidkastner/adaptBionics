@@ -170,59 +170,59 @@ portfolio-description: A gallery style exhibition of the brace designs produced 
 portfolio-categories: [Black, White, Grey, 3D Render, Prototype]
 portfolio:
 
-# Portfolio Item
+# Portfolio Item 1
 - title: S<span class="thin">era</span> Style
   categories: [Websites, Graphic Design]
   image: img-01.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 2
 - title: S<span class="thin">era</span> Style
   categories: [Graphic Design, Logo, Websites]
   image: img-02.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 3
 - title: S<span class="thin">era</span> Style
   categories: [Graphic Design, Logo, Photography]
   image: img-03.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 4
 - title: S<span class="thin">era</span> Style
   categories: [Websites, Video, Photography]
   image: img-04.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 5
 - title: S<span class="thin">era</span> Style
   categories: [Development, Logo]
   image: img-05.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 6
 - title: S<span class="thin">era</span> Style
   categories: [Development, Video]
   image: img-06.jpg
   url: '#'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
+# Portfolio Item 7
+#- title: S<span class="thin">era</span> Style
+#  categories: [Websites, Graphic Design]
+#  image: img-07.jpg
+#  url: '#'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
+# Portfolio Item 8
+#- title: S<span class="thin">era</span> Style
+#  categories: [Websites , Video]
+#  image: img-08.jpg
+#  url: '#'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
+# Portfolio Item 9
+#- title: S<span class="thin">era</span> Style
+#  categories: [Photography, Logo]
+#  image: img-09.jpg
+#  url: '#'
 
 
 #####################################
