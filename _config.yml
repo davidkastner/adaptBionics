@@ -33,7 +33,7 @@ header-focus-button:
 # Secondary Buttons
 header-secondary-button:
   title: Learn More
-  url: https://www.adaptivebraces.com
+  url: https://www.adaptivebraces.com/assets/annual_report.pdf
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -56,7 +56,7 @@ email_subject: We're interested in your services!
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://www.adaptivebraces.com
+banner-link: https://www.adaptivebraces.com/assets/annual_report.pdf
 
 ####################################
 ######  Global Social Links   ######
