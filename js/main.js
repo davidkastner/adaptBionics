@@ -39,9 +39,9 @@
         /**
          *  Page Loader
          **/
-        // setTimeout(function () {
-        //     $('.page-loader').addClass('load-complete');
-        // }, 0);
+        setTimeout(function () {
+            $('.page-loader').addClass('load-complete');
+        }, 1500);
 
         /**
          *  Parallax with Scrollax.js - Initialization
