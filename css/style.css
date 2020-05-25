@@ -3385,7 +3385,7 @@ header.site-header .arrow-down-section .arrow-down i:before {
     top: 0;
     left: 15px;
     min-height: 60px;
-    background-color: #b3212c;
+    /* background-color: #b3212c; */
     z-index: 99999999999999;
   }
   header.site-header .site-navigation-bar .navigation-bar {
