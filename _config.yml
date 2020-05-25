@@ -16,9 +16,9 @@ title: Adaptive Brances
 # Website language
 lang: en-US
 # Header Tagline
-header-title: adaptive braces
+header-title: Adaptive Braces
 # Header Title
-header-tagline: '<div style="height: 2em"><span id="typed-tagline">research-driven hackers.<br/>trusted security advisors</span></div>'
+header-tagline: '<div style="height: 2em"><span id="typed-tagline">Putting evolution to work<br/>for you.</span></div>'
 
 
 ####################################
@@ -28,12 +28,12 @@ header-tagline: '<div style="height: 2em"><span id="typed-tagline">research-driv
 # Focus Buttons
 header-focus-button:
   title: Download Now
-  url: https://kastner.io
+  url: https://www.adaptivebraces.com
 
 # Secondary Buttons
 header-secondary-button:
   title: Learn More
-  url: https://kastner.io
+  url: https://www.adaptivebraces.com
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -56,7 +56,7 @@ email_subject: We're interested in your services!
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://kastner.io
+banner-link: https://www.adaptivebraces.com
 
 ####################################
 ######  Global Social Links   ######
