@@ -3305,11 +3305,11 @@ header.site-header .arrow-down-section .arrow-down:before, header.site-header .a
   height: 100%;
   top: 0;
   left: 0;
-  border-radius: 50%;
+  transform: rotate(45deg);
 }
 
 header.site-header .arrow-down-section .arrow-down:before {
-  border: 1px solid #fff;
+  border: 1px solid #b3212c;
   -webkit-animation: sera-pulse 2.5s ease-in-out infinite alternate;
           animation: sera-pulse 2.5s ease-in-out infinite alternate;
 }
