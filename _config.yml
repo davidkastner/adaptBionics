@@ -345,9 +345,10 @@ team-description: Adaptive Braces started as a intellectual challenge and has si
 team:
 
 # Team Member
-- name: David W. Kastner
+- name: David Kastner
   tagline: Owner and Founder
-  avatar: profile.PNG
+  avatar: profile.png
+
   # Social Links
   linkedin: https://www.linkedin.com/davidwkastner
   github: https://github.com/davidkastner
