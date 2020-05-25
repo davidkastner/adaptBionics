@@ -3259,7 +3259,7 @@ header.site-header .header-banner {
   max-height: -webkit-calc(1080px - 250px);
   max-height: calc(1080px - 250px);
   z-index: 2;
-  color: #fff;
+  color: #2a2a2a;
 }
 
 header.site-header .header-banner .heading-content {
