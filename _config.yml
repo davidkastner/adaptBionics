@@ -3,7 +3,7 @@
 
 # Information for compile
 exclude: [".git", ".gitignore", "node_modules", "gulpfile.js", "package.json", "README.md"]
-include: [".well-known/microsoft-identity-association.json"]
+# include: [".well-known/microsoft-identity-association.json"]
 
 #######################################################
 #######################################################
