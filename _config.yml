@@ -178,37 +178,37 @@ portfolio-categories: [Black, White, Grey, 3D Render, Prototype]
 portfolio:
 
 # Portfolio Item 1
-- title: M<span class="thin">iss</span> Bee
+- title: Side
   categories: [Grey, 3D Render]
   image: 1.jpg
   url: '#'
 
 # Portfolio Item 2
-- title: M<span class="thin">iss</span> Bee
+- title: Top
   categories: [Grey, 3D Render]
   image: 2.jpg
   url: '#'
 
 # Portfolio Item 3
-- title: M<span class="thin">iss</span> Bee
+- title: Back
   categories: [Grey, 3D Render]
   image: 3.jpg
   url: '#'
 
 # Portfolio Item 4
-- title: M<span class="thin">iss</span> Bee
+- title: Front
   categories: [Black, 3D Render]
   image: 4.jpg
   url: '#'
 
 # Portfolio Item 5
-- title: M<span class="thin">iss</span> Bee
+- title: Prototype
   categories: [White, Prototype]
   image: 5.jpg
   url: '#'
 
 # Portfolio Item 6
-- title: M<span class="thin">iss</span> Bee
+- title: Textured
   categories: [White, 3D Render]
   image: 6.jpg
   url: '#'
