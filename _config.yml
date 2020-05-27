@@ -59,13 +59,13 @@ headter-tagline: Next-generation Exoskeletons
 
 # Focus Buttons
 header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  title: Annual Report
+  url: https://www.adaptivebraces.com/uploads/annual_report.pdf
 
 # Secondary Buttons
 header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
+  title: Annual Report
+  url: https://www.adaptivebraces.com/uploads/annual_report.pdf
 
 #
 # This is your email adress, contact from send here all emails from contact section
@@ -110,8 +110,8 @@ about-widget:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: Miss Bee
-map-text-location: Vancouver, Canada
+map-text: Adaptive Braces
+map-text-location: Boston, massachusetts
 map-lat: 49.272155
 map-lng: -123.104399
 
