@@ -133,14 +133,16 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Miss Bee's Site
-about-description: I am professional personal training working in the Greater Vancouver Region. I offer an array of services geared towards building a highly custom plan for each individuals needs. I am currently accepting new clients so if you are interested in <em> finding you fit </em> contact me for a consultation.
+about-title: Engineers and Designers
+about-description: At Kahyton Biostructures, we are interested in developing innovative braces that can aid rehabilitation centers in providing patients with state of the art designs.
+                     Our current research agenda focuses on using a unique organic structure such as the voronoi motif to strategically place openings over the inflicted area and facilitate therapy and the healing process.
 
 
 #####################################
 #############  Features  ############
 features-title: Services
-features-description: I currently offer...
+features-description: Kahyton Biostructures recently received recognition for its Adaptive Braces at the 2018 ASME 3D Printing Competition.
+                   Special thanks to University of Brigham Young, ASME, and Dow Chemical for sponsoring the annual event.
 
 #
 # Features
@@ -167,56 +169,49 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: Miss Bee's Portfolio
+portfolio-description: A gallery style exhibition of the brace designs produced by Adaptive Braces.
 
 #
 # Portfolio Grid
 #
-portfolio-categories: [Personal Training, Body Building, Sport Training, Injury Prevention]
+portfolio-categories: [Black, White, Grey, 3D Render, Prototype]
 portfolio:
 
-# Portfolio Item
+# Portfolio Item 1
 - title: M<span class="thin">iss</span> Bee
   categories: [Body Building, Personal Training]
   image: head-shot.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 2
 - title: M<span class="thin">iss</span> Bee
   categories: [Body Building, Sport Training, Injury Prevention]
   image: FB1.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 3
 - title: M<span class="thin">iss</span> Bee
   categories: [Personal Training, Sport Training, Injury Prevention]
   image: FB2.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 4
 - title: M<span class="thin">iss</span> Bee
   categories: [Body Building]
   image: FB3.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 5
 - title: M<span class="thin">iss</span> Bee
   categories: [Sport Training]
   image: FB4.jpg
   url: '#'
 
-# Portfolio Item
+# Portfolio Item 6
 - title: M<span class="thin">iss</span> Bee
   categories: [Injury Prevention]
   image: FB5.jpg
   url: '#'
-
-# Portfolio Item
-- title: M<span class="thin">iss</span> Bee
-  categories: [Personal Training]
-  image: head shot Nickie.jpg
-  url: '#'
-
 
 #####################################
 ##########  Core Features  ##########
