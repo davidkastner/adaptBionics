@@ -60,12 +60,12 @@ headter-tagline: Next-generation Exoskeletons
 # Focus Buttons
 header-focus-button:
   title: Annual Report
-  url: https://www.adaptivebraces.com/uploads/annual_report.pdf
+  url: https://www.adaptivebraces.com
 
 # Secondary Buttons
 header-secondary-button:
   title: Annual Report
-  url: https://www.adaptivebraces.com/uploads/annual_report.pdf
+  url: https://www.adaptivebraces.com
 
 #
 # This is your email adress, contact from send here all emails from contact section
@@ -76,7 +76,7 @@ email: kastner@mit.edu
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-# banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://www.adaptivebraces.com/uploads/annual_report.pdf
 
 ####################################
 ######  Global Social Links   ######
