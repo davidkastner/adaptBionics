@@ -1,40 +1,9 @@
+#
+# Sera - OnePage Jekyll Template
 # Configuration File
 #
-
 # Information for compile
-exclude: [".git", ".gitignore", "node_modules", "gulpfile.js", "package.json", "README.md"]
-# include: [".well-known/microsoft-identity-association.json"]
-
-#######################################################
-#######################################################
-###############   HEADER INFORMATIONS   ###############
-#######################################################
-#######################################################
-
-# This is your site title
-title: Adaptive Brances
-# Website language
-lang: en-US
-# Header Tagline
-header-title: Adaptive Braces
-# Header Title
-header-tagline: '<div style="height: 2em"><span id="typed-tagline">Putting evolution to work<br/>for you.</span></div>'
-
-
-####################################
-######   CTA Header Buttons   ######
-####################################
-
-# Focus Buttons
-header-focus-button:
-  title: Download Now
-  url: https://www.adaptivebraces.com/assets/annual_report.pdf
-
-# Secondary Buttons
-header-secondary-button:
-  title: Learn More
-  url: https://www.adaptivebraces.com/assets/annual_report.pdf
-
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
 #
 # If your website is placed in a separate folder on your server please modify
 # this with your folder name, by default is empty.
@@ -46,23 +15,78 @@ header-secondary-button:
 #
 baseurl:
 
+# the base hostname & protocol for your site
+url: "https://adaptivebraces.com/"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Adaptive Braces
+# Website language
+lang: en-US
+# Header Title
+header-title: <strong>Miss Bee</strong>
+# Header Tagline
+headter-tagline: Find <em> Your </em> Fit With
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Download Now
+  url: https://themeforest.net/collections/6069390-sera
+
+# Secondary Buttons
+header-secondary-button:
+  title: Discover More
+  url: http://themeforest.net/user/gleesik
+
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
 email: kastner@mit.edu
-email_subject: We're interested in your services!
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://www.adaptivebraces.com/assets/annual_report.pdf
+# banner-link: https://themeforest.net/collections/6069390-sera
 
 ####################################
 ######  Global Social Links   ######
 ####################################
-twitter: 'https://twitter.com/davidwkastner'
-linkedin: 'https://www.linkedin.com/davidwkastner'
+youtube: '#'
+pinterest: '#'
+facebook: '#'
+twitter: '#'
+google-plus: '#'
+vimeo: '#'
 
 #########################
 ######   Widgets   ######
@@ -72,10 +96,10 @@ linkedin: 'https://www.linkedin.com/davidwkastner'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+  author-avatar: head-shot.jpg
+  author-name: David Kastner
+  author-tagline: Bioengineer
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
   author-social-links:
     youtube: '#'
     pinterest: '#'
@@ -85,12 +109,11 @@ about-widget:
 
 # Google Map JS api
 # This is my api for this template
-key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
-map-text: Adaptive Braces, Inc.
-map-text-location: <hr/>7 Bayview Rd<br/>Ottawa, ON K1Y 3B5<br/>Canada
-map-lat: 45.4096921
-map-lng: -75.7282636
-map-zoom: 15
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+map-text: Miss Bee
+map-text-location: Vancouver, Canada
+map-lat: 49.272155
+map-lng: -123.104399
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
@@ -110,175 +133,146 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Engineers and Designers
-about-description: <p>At Kahyton Biostructures, we are interested in developing innovative braces that can aid rehabilitation centers in providing patients with state of the art designs.
-                     Our current research agenda focuses on using a unique organic structure such as the voronoi motif to strategically place openings over the inflicted area and facilitate therapy and the healing process.</p>
+about-title: Welcome to Miss Bee's Site
+about-description: I am professional personal training working in the Greater Vancouver Region. I offer an array of services geared towards building a highly custom plan for each individuals needs. I am currently accepting new clients so if you are interested in <em> finding you fit </em> contact me for a consultation.
 
 
 #####################################
-#############  Services  ############
-#####################################
-services-title: Services
-services-description: <p>Kahyton Biostructures recently received recognition for its Adaptive Braces at the 2018 ASME 3D Printing Competition.
-                   Special thanks to University of Brigham Young, ASME, and Dow Chemical for sponsoring the annual event.<p>
+#############  Features  ############
+features-title: Services
+features-description: I currently offer...
 
 #
-# Services
+# Features
 #
-services:
+features:
 
 # Feature
-#- title: Strategy & Governance
-#  description: Cybersecurity requires timely, cross-functional and cross-organizational responses, aligned and consistent with the emergence of increasingly severe cyber risks. Red Canari helps organizations to create the strategy and implement the framework required to effectively manage cyber risk. Our experts work with organizations to align their security capabilities with their strategic imperatives.
-#  icon: pe-7s-culture
+- title: Personal Training
+  description: Find your fit with Miss Bee. I offer highly customizeable programs tailored specifically for you.
+  icon: pe-7s-user
 
 # Feature
-#- title: Security Architecture
-#  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and implementing newer technologies.
-#  icon: pe-7s-network
+- title: Body Building
+  description: Whatever your goals there's a plan to get you there.
+  icon: pe-7s-gym
 
 # Feature
-#- title: Audit & Assessment
-#  description: Think you're prepared for an attack? We'll find out. For organizations with a security policy and infrastructure already in place, our 365 Red Team thinks and acts like attackers, continually putting your team and incident response protocols to the test so they'll be ready when a real threat comes. We research the most sophisticated attack techniques being used today to keep your organization safe.
-#  icon: pe-7s-hammer
+- title: Injury Prevention
+  description: Don't let persistent injuries keep you on the sidelines! Build a plan to get you back in play and stay off the sidelines.
+  icon: pe-7s-bandaid
 
-# Feature
-- title: Operational Technology Assessments
-  description: Advances in modern control systems like the Smart Grid have brought great benefits but at a cost from a security perspective. With the confluence of IT and OT systems and increased inter-system communication, vendors, asset owners and operators, and the general population are all at a greater risk of compromise. To minimize this risk, Red Canari experts conduct security assessments including highly technical offensive testing to minimize vulnerabilities before attackers can exploit critical infrastructures critical to the functioning of modern society.
-  icon: pe-7s-power
-
-# Feature
-- title: Training
-  description: Training of executive managers and key staff in cybersecurity strategy principles and risk management standards is fundamental. Operational skills required for program managers and technical staff are an enduring requirement and should be optimized to meet the strategic requirements of the enterprise plan and changes in the risk environment. Red Canari delivers cybersecurity skills – training aligned to every position in an organization, and generalized cybersecurity best practice guidance for all staff in operational (not primarily IT) areas and management disciplines.
-  icon: pe-7s-notebook
-
-# Feature
-- title: Digital Forensics & Incident Response
-  description: In today's highly interconnected global economy, risk is ubiquitous. Some of the risk that organizations face can be anticipated, managed and mitigated; but several catastrophic, hard-to-predict events are occurring ever more frequently. Red Canari DFIR program enhance the resilience of an organization to high-impact cyber crises. We support you with the decision-making protocols and appropriate responses required in the wake of a cyber emergency, to help limit business interruption and the associated costs.
-  icon: pe-7s-search
 
 #####################################
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: A gallery style exhibition of the brace designs produced by Adaptive Braces.
+portfolio-description: Miss Bee's Portfolio
 
 #
 # Portfolio Grid
 #
-portfolio-categories: [Black, White, Grey, 3D Render, Prototype]
+portfolio-categories: [Personal Training, Body Building, Sport Training, Injury Prevention]
 portfolio:
 
-# Portfolio Item 1
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Body Building, Personal Training]
+  image: head-shot.jpg
   url: '#'
 
-# Portfolio Item 2
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Body Building, Sport Training, Injury Prevention]
+  image: FB1.jpg
   url: '#'
 
-# Portfolio Item 3
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Personal Training, Sport Training, Injury Prevention]
+  image: FB2.jpg
   url: '#'
 
-# Portfolio Item 4
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Body Building]
+  image: FB3.jpg
   url: '#'
 
-# Portfolio Item 5
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Sport Training]
+  image: FB4.jpg
   url: '#'
 
-# Portfolio Item 6
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Injury Prevention]
+  image: FB5.jpg
   url: '#'
 
-# Portfolio Item 7
-#- title: S<span class="thin">era</span> Style
-#  categories: [Websites, Graphic Design]
-#  image: img-07.jpg
-#  url: '#'
-
-# Portfolio Item 8
-#- title: S<span class="thin">era</span> Style
-#  categories: [Websites , Video]
-#  image: img-08.jpg
-#  url: '#'
-
-# Portfolio Item 9
-#- title: S<span class="thin">era</span> Style
-#  categories: [Photography, Logo]
-#  image: img-09.jpg
-#  url: '#'
+# Portfolio Item
+- title: M<span class="thin">iss</span> Bee
+  categories: [Personal Training]
+  image: head shot Nickie.jpg
+  url: '#'
 
 
 #####################################
-##########  Core Services  ##########
+##########  Core Features  ##########
 #####################################
-core-title: We look where others don't
-core-description: We will help you identify your weaknesses, pre-emptively remediate them and reduce the risk of being compromised by real-world threats.
+core-title: Core Features
+core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
 
 #
 # Core Features Left
 #
-core-services-left:
+core-features-left:
 
 # Feature
-- name: Virtual CSO
-  description: Get guidance on GRC & Policy Implementation.
-  icon: pe-7s-culture
+- name: Creative
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-light
 
 # Feature
-- name: Digital Forensics
-  description: Incident response and investigation.
-  icon: pe-7s-search
+- name: Minimalism
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-drop
 
 # Feature
-- name: Cyber Training Program
-  description: Train your team to operate securely.
-  icon: pe-7s-notebook
+- name: Clean Coding
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-coffee
 
 # Feature
-- name: Operational Technology
-  description: Assess your Industrial systems.
-  icon: pe-7s-power
+- name: Friendly
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-smile
 
 #
 # Core Features Right
 #
-core-services-right:
+core-features-right:
 
 # Feature
-- name: 365 RED TEAM
-  description: Simulate sophisticated real-world attacks.
-  icon: pe-7s-look
+- name: Branding
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-wine
 
 # Feature
-- name: Enterprise Penetration Test
-  description: Assess security from every angle.
-  icon: pe-7s-shield
-
-# Feature
-- name: Application Assessment
-  description: Identify vulnerabilities in your applications.
+- name: Web Design
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-monitor
 
 # Feature
-- name: Secure Code Assessment
-  description: Embed security directly into your software development cycle.
-  icon: pe-7s-tools
+- name: Graphic Design
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-crop
+
+# Feature
+- name: Photography
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-camera
 
 
 #####################################
@@ -328,15 +322,15 @@ testimonials:
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
+blog-title: Miss Bee's Blog
 blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
 
 #####################################
 ############### Team ################
 #####################################
-team-title: About Me
-team-description: Adaptive Braces started as a intellectual challenge and has since evovled into an intellectual passion.
+team-title: Meet Our Team
+team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
 #
 # Team Members
@@ -344,16 +338,57 @@ team-description: Adaptive Braces started as a intellectual challenge and has si
 team:
 
 # Team Member
-- name: David Kastner
-  tagline: Owner and Founder
-  avatar: profile.png
+- name: Jack Skilton
+  tagline: Graphic Designer
+  avatar: avatar-01.jpg
 
   # Social Links
-  linkedin: 'https://www.linkedin.com/in/davidwkastner/'
-  github: https://github.com/davidkastner
-  twitter: 'https://www.twitter/davidwkastner'
-  instagram: https://www.instagram.com/illustratedatom/
-  dribbble: https://dribbble.com/davidkastner/
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: James Young
+  tagline: Developer
+  avatar: avatar-02.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Johnatan Doe
+  tagline: Hacker
+  avatar: avatar-04.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Ecaterina Doe
+  tagline: Support Expert
+  avatar: avatar-03.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
 
 #####################################
 ########## Pricing Tables ###########
@@ -396,14 +431,13 @@ plan-ultimate-url: '#'
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: Learn more about our braces!
-contact-success: Thank you for contacting us! A member of our team will reach out to you shortly.
+contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Putting Evolution to Work for You.
-footer-copyright-text: Adaptive Braces
-footer-copyright-url: https://www.adaptivebraces.com/
-footer-copyright-year: 2020
+footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+footer-copyright-text: MissBee&trade;
+footer-copyright-url: http://findyourfitwithmissbee.com
+footer-copyright-year: 2018

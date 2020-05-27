@@ -54,7 +54,7 @@ section.team-section {
 
         &:after {
           content: "\e623";
-          font-family: '7-stroke';
+        	font-family: '7-stroke';
           font-size: 4rem;
           width: auto;
           height: auto;
@@ -111,7 +111,7 @@ section.team-section {
         .img-wrapper {
           &:before,
           &:after {
-            opacity: 0;
+            opacity: 1;
           }
         }
       }

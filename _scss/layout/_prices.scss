@@ -96,7 +96,7 @@ section.prices-section {
           text-transform: uppercase;
           padding: 10px 0;
           background: $primary;
-          transform: rotate(-45deg) translate(-32%, -160%);
+          transform: rotate(-45deg) translate(-32%,-160%);
         }
 
         .plan-title {
@@ -127,7 +127,7 @@ section.prices-section {
         padding: 40px 22px;
         border-bottom: 1px solid $simple-gray;
 
-        h4.service-title {
+        h4.feature-title {
           font-weight: bold;
           color: $secondary;
           font-size: 1rem;
@@ -143,7 +143,7 @@ section.prices-section {
           margin: 20px auto;
         }
 
-        p.service-content {
+        p.feature-content {
           font-size: 0.75rem;
           margin: 20px 0;
         }

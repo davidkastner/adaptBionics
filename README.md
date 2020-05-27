@@ -1,5 +1,8 @@
-# jekyll-gulp-sass-browser-sync
-
+```
+=================================================
+=====     jekyll-gulp-sass-browser-sync     =====
+=================================================
+```
 A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
 ## System Preparation
@@ -7,8 +10,9 @@ A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; Brow
 To use this project, you'll need the following things installed on your machine.
 
 1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+2. [Jekyll-Archives](http://jekyllrb.com) - `$ bundle install`
+3. [NodeJS](http://nodejs.org) - use the installer.
+4. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
 
 ## Local Installation
 

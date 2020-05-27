@@ -1,6 +1,6 @@
 {
-  "name": "gleesik-starter-kit",
-  "version": "1.2.0",
+  "name": "sera-onepage",
+  "version": "1.1.0",
   "description": "A project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
   "main": "gulpfile.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "Daniel Costrășel",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^3.1.0",
+    "browser-sync": "^2.23.5",
+    "gulp-autoprefixer": "^4.1.0"
   },
   "repository": {
     "type": "template",
@@ -27,11 +27,5 @@
   "bugs": {
     "url": "https://gleesik.ro/"
   },
-  "homepage": "https://gleesik.ro/",
-  "dependencies": {
-    "jekyll": "^3.0.0-beta1",
-    "jquery-circle-progress": "^1.2.2",
-    "node-sass": "^4.9.3",
-    "typeit": "^5.10.7"
-  }
+  "homepage": "https://gleesik.ro/"
 }

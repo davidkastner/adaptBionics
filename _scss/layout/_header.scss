@@ -53,7 +53,6 @@ header.site-header {
     height: 100px;
     min-height: 100px;
     z-index: 2;
-    background-color: $primary;
 
     // Logo
     .logo {
@@ -82,8 +81,7 @@ header.site-header {
 
             &.current-menu-item {
               a {
-                color: $white;
-                font-weight: bolder;
+                color: $primary;
                 position: relative;
 
                 &:before {
@@ -95,19 +93,19 @@ header.site-header {
                   left: 50%;
                   bottom: -10px;
                   transform: translateX(-50%);
-                  background-color: $white;
+                  background-color: $primary;
                 }
               }
             }
 
             a {
               display: block;
-              color: rgba(255,255,255,0.75);
+              color: $white;
               padding: 10px 0;
 
               &:hover,
               &:active {
-                color: $white;
+                color: $primary;
               }
 
             }
@@ -172,12 +170,12 @@ header.site-header {
         height: 100%;
         top: 0;
         left: 0;
-        border-radius: 50%;
+        transform: rotate(45deg);
       }
 
       // Stroke
       &:before {
-        border: 1px solid $white;
+        border: 1px solid $primary;
         animation: sera-pulse $animation-arrow-header-time $animation-arrow-header-type infinite alternate;
       }
 

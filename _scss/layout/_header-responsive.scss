@@ -46,7 +46,7 @@
       top: 0;
       left: 15px;
       min-height: 60px;
-      background-color: $primary;
+      background: $primary;
       z-index: 99999999999999;
 
       // Navigation Bar
@@ -90,7 +90,7 @@
 
               @for $i from 1 through $menuItems {
                 &:nth-child(#{$i}) {
-                  transition-delay: #{0.56 - ($i * 0.07)}s;
+                    transition-delay: #{0.56 - ($i * 0.07)}s;
                 }
               }
 
@@ -109,7 +109,7 @@
                 padding: 15px 0 20px 0;
 
               }
-
+              
             }
           }
 
@@ -124,15 +124,15 @@
           // Nav Menu Active
           .nav-menu {
             ul.menu {
-              li {
-                transform: scale(1) translateY(0);
-                opacity: 1;
-                @for $i from 1 through $menuItems {
-                  &:nth-child(#{$i}) {
-                    transition-delay: #{0.07 * $i+0.2}s;
-                  }
+                li {
+                    transform: scale(1) translateY(0);
+                    opacity: 1;
+                    @for $i from 1 through $menuItems {
+                        &:nth-child(#{$i}) {
+                            transition-delay: #{0.07 * $i+0.2}s;
+                        }
+                    }
                 }
-              }
             }
           }
         }
@@ -165,16 +165,16 @@
           }
           i:nth-child(1) {
             animation: sera-outT 0.8s backwards;
-            animation-direction: reverse;
+            animation-direction:reverse;
           }
           i:nth-child(2) {
             margin: 12px 0;
             animation: sera-outM 0.8s backwards;
-            animation-direction: reverse;
+            animation-direction:reverse;
           }
           i:nth-child(3) {
             animation: sera-outBtm 0.8s backwards;
-            animation-direction: reverse;
+            animation-direction:reverse;
           }
 
           &.active {

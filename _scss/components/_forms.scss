@@ -24,7 +24,7 @@ input, textarea, button {
   outline: 0;
   color: $global-text;
   border: 1px solid $simple-gray;
-  //background: transparentize($white, 0.9);
+  background: transparentize($white, 0.9);
   transition: all $transition-links $transition-links-type;
 
   // Placeholders

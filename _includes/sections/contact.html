@@ -1,101 +1,90 @@
 <!-- Contact Section -->
-<section class="site-section contact-section next-section-indicator parallax" id="contact" data-scrollax-parent="true">
+<section class="site-section contact-section next-section-indicator parallax" id="contact"  data-scrollax-parent="true">
 
-    <!-- Parallax Contact Image -->
-    <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-        <img src="{{ site.baseurl }}/images/contact-image.png" style="filter: blur(5px) brightness(0.5)" alt="Adaptive Braces - Contact Us"/>
-    </div>
+  <!-- Parallax Contact Image -->
+  <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+    <img src="{{ site.baseurl }}/images/contact-image.jpg" alt="Sera - One Page Template by Gleesik Wallpaper" />
+  </div>
 
-    <div class="container">
+  <div class="container">
 
-        <!-- Section Heading -->
-        <div class="row text-center">
+    <!-- Section Heading -->
+    <div class="row text-center">
 
-            <!-- Section Header -->
-            <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-                <h2>{{ site.contact-title }}</h2>
-                <hr class="normal">
-            </header>
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.contact-title }}</h2>
+        <hr class="normal">
+      </header>
 
-            <!-- Section Content -->
-            <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-                <p id="subscribe-result">{{ site.contact-description }}</p>
-                <p>Drop us a line here or via email at
-                    <button style="padding: 5px; border-radius: 5px;" onclick="window.open('mailto:'+reverseString('{{ site.email | split: "" | reverse | join: ""}}')+'?subject={{ site.email_subject | url_encode | replace: "+", " " }}', '_self')">
-                        <script>document.write(reverseString('{{ site.email | split: "" | reverse | join: ""}}'))</script>
-                    </button>
-                </p>
-            </div>
-
-        </div>
-
-        <!-- Form Container -->
-        <div class="row form-container">
-
-            <!-- Contact Form -->
-            <div class="col-md-8 col-md-push-2">
-                <form id="mc-embedded-subscribe-form"
-                      action="https://redcanari.us15.list-manage.com/subscribe/post-json?u=03bfc07d3aa404394c6b1b423&amp;id=ca999ec2cd&c=?"
-                      method="get"
-                      class="contact-form container-fluid">
-                    <div class="col-md-6">
-                        <input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Name" required/>
-                    </div>
-                    <div class="col-md-6">
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail" required/>
-                    </div>
-                    <div class="col-md-6">
-                        <input type="tel" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Phone Number" required>
-                    </div>
-                    <div class="col-md-6">
-                        <input type="text" value="" name="SUBJECT" class="" id="mce-SUBJECT" placeholder="What can we help you with?"/>
-                    </div>
-                    <div class="col-md-12">
-                        <textarea name="MESSAGE" class="" id="mce-MESSAGE" rows="8" cols="40" placeholder="Share a little bit more about your requirements..."></textarea>
-                    </div>
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_03bfc07d3aa404394c6b1b423_ca999ec2cd" tabindex="-1" value=""/>
-                    </div>
-                    <div class="col-md-12 form-action">
-                        <button type="submit" class="send-button" id="mc-embedded-subscribe">Send Message</button>
-                    </div>
-                </form>
-            </div>
-
-        </div>
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.contact-description }}</p>
+      </div>
 
     </div>
+
+    <!-- Form Container -->
+    <div class="row form-container">
+
+      <!-- Contact Form -->
+      <div class="col-md-8 col-md-push-2">
+        <form id="sera-contact-form" action="https://formspree.io/{{ site.email }}" method="POST" class="contact-form container-fluid">
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Name" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="website" placeholder="Website" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="email" placeholder="Email" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="col-md-12">
+            <textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
+          </div>
+          <div class="col-md-12 form-action">
+            <button type="submit" class="send-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
 </section>
 
 <!-- Google Map Embed -->
 <div class="google-map">
 
-    <div style='overflow:hidden;height:490px;width:100%;'>
-        <div id='gmap_canvas' style='height:490px;width:100%;'></div>
-    </div>
-    <script type='text/javascript'>
-        function initMap() {
-            var options = {
-                zoom: {{ site.map-zoom }},
-                scrollwheel: false,
-                center: new google.maps.LatLng({{ site.map-lat }}, {{ site.map-lng }}),
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            map = new google.maps.Map(document.getElementById('gmap_canvas'), options);
-            marker = new google.maps.Marker({
-                map: map,
-                position: new google.maps.LatLng({{ site.map-lat }}, {{ site.map-lng }})
-            });
-
-            infowindow = new google.maps.InfoWindow({
-                content: '<span><strong>{{ site.map-text }}</strong><br>{{ site.map-text-location }}<br><span>'
-            });
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-            infowindow.open(map, marker);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.key-api }}&callback=initMap"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?key={{ site.key-api }}"></script>
+  <div style='overflow:hidden;height:490px;width:100%;'>
+      <div id='gmap_canvas' style='height:490px;width:100%;'></div>
+  </div>
+  <script type='text/javascript'>
+      function init_map() {
+          var myOptions = {
+              zoom: 10,
+              scrollwheel: false,
+              center: new google.maps.LatLng( {{ site.map-lat }}, {{ site.map-lng }} ),
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+          marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng( {{ site.map-lat }}, {{ site.map-lng }} )
+          });
+          infowindow = new google.maps.InfoWindow({
+              content: '<span><strong>{{ site.map-text }}</strong><br>{{ site.map-text-location }}<br><span>'
+          });
+          google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map, marker);
+          });
+          infowindow.open(map, marker);
+      }
+      google.maps.event.addDomListener(window, 'load', init_map);
+  </script>
 
 </div>

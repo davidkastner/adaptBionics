@@ -11,14 +11,13 @@
   display: inline-block;
   width: auto;
   max-width: 100%;
-  background-color: $primary;
-  border: none;
+  color: $primary;
+  border: 2px solid $primary;
   padding: 0.8em 2em;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  color: $white;
 
   &.button-focus {
     color: $white;
@@ -29,7 +28,7 @@
   &:active {
     color: $white;
     border-color: lighten($primary, 20%);
-    background-color: darken($primary, 10%);
+    background-color: lighten($primary, 20%);
   }
 
 }

@@ -38,7 +38,7 @@
 
   }
 
-  .owl-item {
+  .owl-item{
     float: left;
   }
 
@@ -59,9 +59,9 @@
 
   /* fix */
   .owl-wrapper,
-  .owl-item {
+  .owl-item{
     backface-visibility: hidden;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0,0,0);
   }
 
 }
