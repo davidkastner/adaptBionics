@@ -179,38 +179,38 @@ portfolio:
 
 # Portfolio Item 1
 - title: M<span class="thin">iss</span> Bee
-  categories: [Body Building, Personal Training]
-  image: head-shot.jpg
+  categories: [Grey, 3D Render]
+  image: 1.jpg
   url: '#'
 
 # Portfolio Item 2
 - title: M<span class="thin">iss</span> Bee
-  categories: [Body Building, Sport Training, Injury Prevention]
-  image: FB1.jpg
+  categories: [Grey, 3D Render]
+  image: 2.jpg
   url: '#'
 
 # Portfolio Item 3
 - title: M<span class="thin">iss</span> Bee
-  categories: [Personal Training, Sport Training, Injury Prevention]
-  image: FB2.jpg
+  categories: [Grey, 3D Render]
+  image: 3.jpg
   url: '#'
 
 # Portfolio Item 4
 - title: M<span class="thin">iss</span> Bee
-  categories: [Body Building]
-  image: FB3.jpg
+  categories: [Black, 3D Render]
+  image: 4.jpg
   url: '#'
 
 # Portfolio Item 5
 - title: M<span class="thin">iss</span> Bee
-  categories: [Sport Training]
-  image: FB4.jpg
+  categories: [White, Prototype]
+  image: 5.jpg
   url: '#'
 
 # Portfolio Item 6
 - title: M<span class="thin">iss</span> Bee
-  categories: [Injury Prevention]
-  image: FB5.jpg
+  categories: [White, 3D Render]
+  image: 6.jpg
   url: '#'
 
 #####################################
