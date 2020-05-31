@@ -81,6 +81,7 @@ banner-link: https://www.adaptivebraces.com/uploads/annual_report.pdf
 ####################################
 ######  Global Social Links   ######
 ####################################
+linkedin: '#'
 youtube: '#'
 pinterest: '#'
 facebook: '#'
@@ -99,8 +100,7 @@ about-widget:
   author-avatar: head-shot.jpg
   author-name: David Kastner
   author-tagline: Bioengineer
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
-  author-social-links:
+  author-info: MIT Bioengineering PhD candidate
     youtube: '#'
     pinterest: '#'
     facebook: '#'
