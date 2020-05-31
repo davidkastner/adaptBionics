@@ -110,11 +110,12 @@ about-widget:
 
 # Google Map JS api
 # This is my api for this template
-key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: Adaptive Braces
+key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
+map-text: Adaptive Braces, Inc.
 map-text-location: Boston, massachusetts
 map-lat: 49.272155
 map-lng: -123.104399
+map-zoom: 15
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
