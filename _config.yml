@@ -226,24 +226,25 @@ core-description: Nature is the ultimate innovator. Through billions of years of
 core-features-left:
 
 # Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-light
+- name: Accesible
+  description: Holes placed over patient specific injuries.
+  icon: pe-7s-keypad
+
 
 # Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
+- name: Durable
+  description: Areas under hihg stress are reinforced.
+  icon: pe-7s-hourglass
 
 # Feature
-- name: Clean Coding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-coffee
+- name: Breathable
+  description: Voronoi pattern makes each brace light and flexible.
+  icon: pe-7s-loop
 
 # Feature
-- name: Friendly
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
+- name: Strapless
+  description: Each brace is custom made and guarenteed for a perfect fit.
+  icon: pe-7s-bandaid
 
 #
 # Core Features Right
@@ -251,24 +252,24 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Branding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
+- name: Biomimetic
+  description: The organic pattern is inspired by nature.
+  icon: pe-7s-science
 
 # Feature
-- name: Web Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-monitor
+- name: Reduced Cost
+  description: We use cutting edge 3D printing to cut costs.
+  icon: pe-7s-cash
 
 # Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
+- name: Computational
+  description: Sophisticated software and algorithm interface.
+  icon: pe-7s-graph3
 
 # Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
+- name: 3D Printed
+  description: 3D printed with high resolution plylactic acid.
+  icon: pe-7s-print
 
 
 #####################################
