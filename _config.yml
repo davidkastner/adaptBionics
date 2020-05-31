@@ -21,7 +21,7 @@ url: "https://adaptivebraces.com/"
 ####################################
 ######   Optional Features    ######
 ####################################
-smooth-scroll: false
+smooth-scroll: true
 
 ####################################
 ###########   Plugins    ###########
@@ -112,7 +112,7 @@ about-widget:
 # This is my api for this template
 key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
 map-text: Adaptive Braces, Inc.
-map-text-location: Boston, massachusetts
+map-text-location: Boston, Massachusetts
 map-lat: 49.272155
 map-lng: -123.104399
 map-zoom: 15
@@ -320,7 +320,7 @@ testimonials:
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Miss Bee's Blog
+blog-title: Adaptive Braces' Blog
 blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
 
