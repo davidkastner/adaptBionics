@@ -101,6 +101,7 @@ about-widget:
   author-name: David Kastner
   author-tagline: Bioengineer
   author-info: MIT Bioengineering PhD candidate
+  author-social-links:
     youtube: '#'
     pinterest: '#'
     facebook: '#'
