@@ -3177,6 +3177,7 @@ header.site-header .site-navigation-bar {
 header.site-header .site-navigation-bar .logo img {
   display: block;
   float: left;
+  padding-top: 90px;
 }
 
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
