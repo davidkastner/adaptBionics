@@ -151,19 +151,19 @@ features-description: Kahyton Biostructures recently received recognition for it
 features:
 
 # Feature
-- title: Personal Training
-  description: Find your fit with Miss Bee. I offer highly customizeable programs tailored specifically for you.
-  icon: pe-7s-user
+- title: 3D Printing
+  description: Each Adaptive Brace is 3D printed using the latest in 3D printing technology and comes in a variety of materials such as plylatic acid (PLA).
+  icon: pe-7s-print
 
 # Feature
-- title: Body Building
-  description: Whatever your goals there's a plan to get you there.
-  icon: pe-7s-gym
+- title: Protective
+  description: Adaptive Braces are unique in that the openings created  by the voronoi motif can be strategically placed over injuries to increase accessibility during physical therapy.
+  icon: pe-7s-shield
 
 # Feature
-- title: Injury Prevention
-  description: Don't let persistent injuries keep you on the sidelines! Build a plan to get you back in play and stay off the sidelines.
-  icon: pe-7s-bandaid
+- title: Computational Biostructures
+  description: The focus of our research division is to constantly improve the way we interface with software to maximize our algorithms to identify new structures and materials inspired by nature.
+  icon: pe-7s-science
 
 
 #####################################
