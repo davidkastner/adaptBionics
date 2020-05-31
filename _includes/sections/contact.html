@@ -56,8 +56,8 @@
   </div>
 </section>
 
-<!-- Google Map Embed -->
-<!--<div class="google-map">
+<!-- Google Map Embed
+<div class="google-map">
 
   <script src="http://maps.googleapis.com/maps/api/js?key={{ site.key-api }}"></script>
   <div style='overflow:hidden;height:490px;width:100%;'>
@@ -88,34 +88,3 @@
   </script>
 
 </div>-->
-<div class="google-map">
-
-    <div style='overflow:hidden;height:490px;width:100%;'>
-        <div id='gmap_canvas' style='height:490px;width:100%;'></div>
-    </div>
-    <script type='text/javascript'>
-        function initMap() {
-            var options = {
-                zoom: {{ site.map-zoom }},
-                scrollwheel: false,
-                center: new google.maps.LatLng({{ site.map-lat }}, {{ site.map-lng }}),
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            map = new google.maps.Map(document.getElementById('gmap_canvas'), options);
-            marker = new google.maps.Marker({
-                map: map,
-                position: new google.maps.LatLng({{ site.map-lat }}, {{ site.map-lng }})
-            });
-
-            infowindow = new google.maps.InfoWindow({
-                content: '<span><strong>{{ site.map-text }}</strong><br>{{ site.map-text-location }}<br><span>'
-            });
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-            infowindow.open(map, marker);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.key-api }}&callback=initMap"></script>
-
-</div>
