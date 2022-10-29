@@ -11,7 +11,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "browser-sync": "^2.23.5",
+    "browser-sync": "^2.27.10",
     "gulp-autoprefixer": "^4.1.0"
   },
   "repository": {
